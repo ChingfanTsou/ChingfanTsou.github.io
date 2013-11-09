@@ -768,6 +768,10 @@ dt {
 }
 #header nav li.fork {
   float: left;
+  margin-left: 30px;
+}
+#header nav li.home {
+  float: left;
   margin-left: 0px;
 }
 #header nav li.downloads {

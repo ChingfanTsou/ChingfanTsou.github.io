@@ -1,32 +1,30 @@
----
-title: Home
-description: Chingfan Tsao's personal blog
----
-
 <!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Chingfantsou.github.io</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <link rel="stylesheet" href="../../../stylesheets/styles.css">
+    <link rel="stylesheet" href="../../../stylesheets/pygment_trac.css">
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
+    <script src="../../../javascripts/respond.js"></script>
+
     <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
     <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
+	<link rel="stylesheet" href="stylesheets/ie.css">
+	<![endif]-->
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
   </head>
   <body>
       <div id="header">
         <nav>
-	  <li class="fork"><a href="https://chingfantsou.github.io">Home</a></li>
+	  <li class="home"><a href="https://chingfantsou.github.io">Home</a></li>
           <li class="fork"><a href="https://github.com/ChingfanTsou">Fork Me @ GitHub</a></li>
         </nav>
       </div><!-- end header -->
@@ -35,20 +33,13 @@ description: Chingfan Tsao's personal blog
 
       <section>
         <div id="title">
-          <h1>hOw CAn you Miss this Land</h1>
-          <p>Be ScientiLogical</p>
+          <h1>{{ page.title }}</h1>
           <hr>
           <span class="credits left">Blog maintained by <a href="https://github.com/ChingfanTsou">ChingfanTsou</a></span>
           <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
         </div>
-
-	<ul>
-	  {% for post in site.posts %}
-	  <li>
-	    <a href="{{ post.url }}">{{ post.title }}</a>
-	  </li>
-	  {% endfor %}
-	</ul>
+	
+	{{ content }}
 
         <h1>
 	  <a name="chingfantsougithubio" class="anchor" href="https://chingfantsou.github.io">
@@ -60,7 +51,6 @@ description: Chingfan Tsao's personal blog
       </section>
 
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->    
   </body>
 </html>
