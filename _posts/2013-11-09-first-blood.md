@@ -6,6 +6,5 @@ layout: post_page
 - first blog!
 
 {% highlight ocaml %}
-let a = "hello world"
-let _ = Printf.printf "%s\n" a;
+let _ = Printf.printf "Hello Magic Land!\n";;
 {% endhighlight %}
