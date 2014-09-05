@@ -1,0 +1,33 @@
+name: Commanding Height
+markdown: redcarpet
+highligher: true
+#url: http://chingfantsou.github.io/
+paginate: 8
+description: Check out Chingfan's New Blog
+intro: Chingfan's Blog about Computer Science & Technology
+logo: logo.png
+disqus_shortname:
+url: http://gotchacode.com
+#Comment out url when working locally to resolve base urls correctly
+#url:
+
+# Owner/author information
+owner:
+  name: Chingfan Tsao
+  avatar: http://ww4.sinaimg.cn/mw690/75b5dbe7tw1ejw2wsm3tfj20b40a0mxu.jpg
+  email: caojingfan@gmail.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:
+  github: https://github.com/ChingfanTsou
+  stackexchange:
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Links to include in top navigation
+# For external links add external: true

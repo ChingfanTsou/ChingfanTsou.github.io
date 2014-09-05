@@ -1,6 +1,6 @@
 ---
 title: This is my first try
-layout: post_page
+layout: post
 ---
 
 - first blog!
