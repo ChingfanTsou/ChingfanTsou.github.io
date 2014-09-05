@@ -1,13 +1,13 @@
 name: Commanding Height
 markdown: redcarpet
 highligher: true
-#url: http://chingfantsou.github.io/
+url: http://chingfantsou.github.io
 paginate: 8
 description: Check out Chingfan's New Blog
 intro: Chingfan's Blog about Computer Science & Technology
 logo: logo.png
 disqus_shortname:
-url: http://gotchacode.com
+#url: http://gotchacode.com
 #Comment out url when working locally to resolve base urls correctly
 #url:
 
