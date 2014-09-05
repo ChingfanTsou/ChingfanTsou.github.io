@@ -3,7 +3,8 @@
       <ul class="nav">
         <!--Change the  URL here if working on an absolute domain-->
         <li><a href="/"><span class="mega-octicon octicon-terminal" style="margin-right: 6px;"></span>{{ site.name }}</a></li>
-        <li><a href="http://cn.linkedin.com/pub/chingfan-tsao/80/22b/862/"><span class="mega-octicon octicon-person" style="margin-right: 6px;"></span>About Me</a></li>
+        {% if site.owner.linkedin %}<li><a href=" {{ site.owner.linkedin }} "><span class="mega-octicon octicon-person" style="margin-right: 6px;"></span>About Me</a></li>{% endif %}
+	{% if site.owner.github %}<li><a href="{{ site.owner.github }}"><span class="mega-octicon octicon-person" style="margin-right: 6px;"></span>Fork Me @ Github</a></li>{% endif %}
       </ul>
   </header>
 </div>
