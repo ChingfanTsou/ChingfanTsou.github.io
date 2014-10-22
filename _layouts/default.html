@@ -2,7 +2,11 @@
 <html>
 <head>
   {% include head.html %}
+  {% if site.weibo.sharebt %}
   <meta property="wb:webmaster" content="d1d4bcb590a1f917" />
+  {{ site.weibo.xmlns }}
+  {{ site.weibo.script }}
+  {% endif %}
 </head>
 <body>
   {% include header.html %}

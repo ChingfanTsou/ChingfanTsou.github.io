@@ -21,6 +21,7 @@ owner:
   twitter:
   github: https://github.com/ChingfanTsou
   stackexchange:
+  weibo:
   # For Google Authorship https://plus.google.com/authorship
   google_plus:
 
@@ -29,6 +30,12 @@ google_analytics:
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
+
+# weibo share stuff
+weibo:
+  script: <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+  xmlns: <html xmlns:wb="http://open.weibo.com/wb">
+  sharebt: <wb:share-button appkey="5IEQWm" addition="simple" type="button" ralateUid="1974852583"></wb:share-button>
 
 # Links to include in top navigation
 # For external links add external: true
